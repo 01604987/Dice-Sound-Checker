@@ -4,7 +4,8 @@ The DFPlayer mini is a simple .mp3/.wav audio player. It does not support simult
 
 This repository will be a testing ground that helps with generating suitable dice shaking audio files. Furthermore it simulates 2 DFPplayer mini playing after each other on their own speakers.
 
-Simply drop and replace the audio files in sounds folder. Audio format must be .wav
+Simply drop and replace the audio files in sounds folder. Audio format must be .wav <br>
+File naming scheme goes as followes in the sample files already in the folder. Starting with 001.wav and ending with max 256.wav
 
 # How to setup
 - Have python 3.7+ installed

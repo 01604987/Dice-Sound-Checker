@@ -52,6 +52,11 @@ def play_shaking_double_DFPlayer(frequency, nr_of_files, split_ch = None):
         
         counter+=1
 
-            
-#playshaking(2, 2)
-play_shaking_double_DFPlayer(frequency= 4, nr_of_files= 2, split_ch=1)
+
+# frequency should simulate the speed of a player shaking the cup of dice
+# nr_of_files just tells the function how many files are in the folder
+# split_ch just plays back each simulated dfplayer into their own speaker (left/right channel)
+        
+# Uncomment bellow to test how it would sound if only a single DFPlayer mini is used.
+#playshaking(frequency=2, nr_of_files=2)
+play_shaking_double_DFPlayer(frequency=4, nr_of_files=2, split_ch=1)
