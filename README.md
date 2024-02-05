@@ -14,5 +14,5 @@ File naming scheme goes as followes in the sample files already in the folder. S
 - If on linux, activate the venv with command `source venv/bin/activate`
 - Select python3 venv interpreter in your chosen IDE. <br>
 On VSCode go `ctrl + shift + P` -> `Python: Select Interpreter`
-- Intall requirements; `pip3 install requirements.txt`
+- Intall requirements; `pip3 install -r requirements.txt`
 - Start main
